@@ -32,6 +32,12 @@ button {
     font-size: .7rem;
     font-weight: 600;
     width: 100px;
+    margin-bottom: 20px;
+}
+
+ul, li, a {
+  color: var(--site-green);
+  margin-bottom: 10px;
 }
 
 @media (min-width: 640px){
