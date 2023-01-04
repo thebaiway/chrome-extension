@@ -27,13 +27,18 @@ input:focus {
 button {
     background: var(--site-green);
     color: var(--site-white);
-    border: none;
+    border: 1px solid var(--site-green);
     padding: 10px;
     text-align: center;
     font-size: .7rem;
     font-weight: 600;
     width: 100px;
     margin-bottom: 20px;
+}
+
+#delete-btn {
+    background-color: var(--site-white);
+    color: var(--site-green);
 }
 
 ul, li, a {
